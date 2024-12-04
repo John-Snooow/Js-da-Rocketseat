@@ -16,6 +16,6 @@ ul.addEventListener("scroll", ()=>{ // Adiciona um evento de rolagem (scroll) ao
 
 const button = document.querySelector("button")// Seleciona o primeiro elemento <button> no documento HTML
 button.addEventListener("click", (event)=>{ // Adiciona um evento de clique (click) ao botão
-    event.preventDefault()     // Previne o comportamento padrão do evento (como o envio de um formulário, se o botão estiver dentro de um)
+    event.preventDefault()     // Previne o comportamento padrão de recarregar a pagina (como o envio de um formulário, se o botão estiver dentro de um)
     console.log("CLICOU")
 })
