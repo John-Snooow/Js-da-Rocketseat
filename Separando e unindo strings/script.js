@@ -4,7 +4,7 @@ let text = "Estudar, Aprender, Praticar"
 let separate = text.split(",")//Vai fazer uma separação dentro de um arrey onde estiver ",".
 console.log(separate) 
 
-let message = "Estou aprndendo JavaScript"
+let message = "Estou aprendendo JavaScript"
 console.log(message.split("en"))//Vai onde estiver "en" nas palavras da variavel
 
 //Unir a string
