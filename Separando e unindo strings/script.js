@@ -5,7 +5,7 @@ let separate = text.split(",")//Vai fazer uma separação dentro de um arrey ond
 console.log(separate) 
 
 let message = "Estou aprndendo JavaScript"
-console.log(message.split(" "))//Vai separar aonde tem espaços.
+console.log(message.split("en"))//Vai onde estiver "en" nas palavras da variavel
 
 //Unir a string
 let joined = separate.join(" - ")// aqui eu coloquei o ifem para subistituir a virgula
