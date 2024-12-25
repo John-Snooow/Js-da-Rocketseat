@@ -6,8 +6,8 @@ let myArray = [
     console.log("Função dentro do Array")
   },
   {
-    name: "John"
-    email: "johnfrank.jf25@gmail.com"
+    name: "John",
+    email: "johnfrank.jf25@gmail.com",
   },
 ]
 //texto
