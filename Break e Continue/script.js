@@ -19,16 +19,16 @@ switch (option) {
 
 //Break dentro da estrutura de repetição (para finalizar a repetição)
 
-for (let i = 0; i < 10; i++){
-    if (i == 5) break;// O loop é interrompido quando i é igual a 5
+for (let i = 0; i < 10; i++) {
+  if (i == 5) break; // O loop é interrompido quando i é igual a 5
+  console.log(i);
 }
-console.log(i)
-
-
 // continue encerra (pula) A execução das instruções na interação atual e continua a execução do loop com a próxima interação.
 
-for (let i = 0; i < 10; i++){
-  if (i === 5){
-    continue;// O loop continua com a próxima interação
+for (let i = 0; i < 10; i++) {
+  if (i === 5) {
+    continue; // O loop continua com a próxima interação
   }
+  console.log(i);
 }
+//aqui ele vai contar ate o 4, vai pular o 5 e continuar ate a chegado do 10
