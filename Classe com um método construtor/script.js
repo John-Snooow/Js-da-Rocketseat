@@ -1,6 +1,6 @@
 
 class Person {
-    construtor(name){
+    constructor(name){
         console.log("Olá", name)
     }
 }
