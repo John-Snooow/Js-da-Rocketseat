@@ -12,3 +12,10 @@ console.log(message.includes("estudando"))//retorna true pois a palavra existe n
 
 console.log(message.includes("estudano"))//retorna false pois a palavra não existe na string
 
+
+//------------------------------------------------
+//verifica se um item existe no Array
+ let fruits = ["Apple", "Orange", "Banana"]
+
+ console.log(fruits.includes("Apple"))//vai retornar verdadeiro 
+ console.log(fruits.includes("Strawberry"))//vai retornar falso, pois não esta entre as frutas
