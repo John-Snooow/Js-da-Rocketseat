@@ -6,5 +6,5 @@ class User {
         console.log('Essa é uma mensagem!');
     }
 }
-
+// Chamada do método estático showMessage diretamente na classe User
 User.showMessage()
