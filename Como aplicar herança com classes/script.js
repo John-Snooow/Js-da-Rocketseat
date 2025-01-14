@@ -4,12 +4,12 @@ class Animal {//A classe Animal define um comportamento básico (nome e método 
         this.name = name
     }
 
-    makeNoise(){
+    makeNoise(){//metodo
         console.log("Esta latindo com alguem");
     }
 }
 
-class Dog extends Animal{//A classe Dog herda esse comportamento sem adicionar nada novo.
+class Dog extends Animal{//A classe Dog herda esse comportamento da classe Animal sem adicionar nada novo.
 //aqui não tem nada
 }
 
