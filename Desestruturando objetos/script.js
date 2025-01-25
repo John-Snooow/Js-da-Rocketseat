@@ -9,6 +9,8 @@ const {description, price} = product
 console.log("Descrição: ", description)
 console.log("Preço: ", price)
 
+
+//desestruturando uma função 
 function newProduct ({price, description}){
     console.log("## NOVO PREÇO ##")
     console.log("Descrição: ", description)
