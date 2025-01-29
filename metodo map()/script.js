@@ -1,4 +1,4 @@
-// O método nmap() chama a  função callback recebida por parâmetro para cada elemento do Array original. em ordem, e constroi um novo array com base nos retonos de cada chamada. e no final, devolve o novo array.
+// O método map() chama a  função callback recebida por parâmetro para cada elemento do Array original. em ordem, e constroi um novo array com base nos retonos de cada chamada. e no final, devolve o novo array.
 
 const products = ["teclado", "Mouse", "Monitor"]
 
