@@ -11,3 +11,10 @@ setTimeout(() => {
 setTimeout(() => {
     console.log('Codar?'); 
 }, 5000)
+
+//setInterval () execulta um função após um intervalo de tempo especificado.
+
+let value =  10 
+setInterval(() => {
+    console.log("Oi!")
+},1000)
